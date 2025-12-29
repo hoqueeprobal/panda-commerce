@@ -226,6 +226,24 @@ nav {
   background: black;
 }
 
+.shoe-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.shoe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.shoe-card img {
+  transition: transform 0.3s ease;
+}
+
+.shoe-card:hover img {
+  transform: scale(1.05);
+}
+
 /* contact */
 .contact-us-parent {
   background-color: #fff2f1;

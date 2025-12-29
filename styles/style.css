@@ -168,6 +168,16 @@ nav {
   );
 }
 
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
 /* shoes and bag section */
 .shoes-backpack-parent {
   background: rgb(244, 244, 244);

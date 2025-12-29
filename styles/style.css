@@ -89,6 +89,39 @@ nav {
   font-size: 16px;
 }
 
+/* Banner  */
+.banner {
+  background: rgb(254, 234, 233);
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  padding: 28px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.banner h2 {
+  color: rgb(31, 31, 31);
+  font-size: 52px;
+  font-weight: bold;
+}
+.banner p {
+  color: #4e4e4e;
+  max-width: 500px;
+}
+.banner img {
+  width: 402px;
+  height: 378px;
+}
+.banner-price {
+  color: #ff136f;
+  font-weight: bold;
+  font-size: 52px;
+  margin-bottom: 35px;
+  display: block;
+  margin-bottom: 0;
+}
+
 /* contact */
 .contact-us-parent {
   background-color: #fff2f1;

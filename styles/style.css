@@ -276,6 +276,38 @@ nav {
   transform: scale(1.05);
 }
 
+/* Shoes cards hover */
+#shoes-section .shoe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #66ccff, #3366ff); /* shoes hover color remains blue */
+}
+
+#shoes-section .shoe-card img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#shoes-section .shoe-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
+/* Backpack cards hover */
+#backpack-section .shoe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px rgba(255, 153, 51, 0.25); 
+  background: linear-gradient(135deg, #ffcc66, #ff9900); 
+}
+
+#backpack-section .shoe-card img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#backpack-section .shoe-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
 /* contact */
 .contact-us-parent {
   background-color: #fff2f1;
